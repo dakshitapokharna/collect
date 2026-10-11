@@ -1,6 +1,6 @@
 # CollectAI: Real-Time Voice Agent for Loan Collections
 
-Hi, I'm **[Your Name]**. I built this at the **Sarvam AI Hackathon**.
+Hi, I'm Dakshita Pokharna. I built this at the Sarvam AI Hackathon.
 
 **🔗 Live demo: https://collect-static.vercel.app/**
 (Use Chrome, allow the microphone, and wear headphones. The free backend sleeps when idle, so the first call can take ~30 seconds to wake up.)
