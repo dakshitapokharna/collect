@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: collections-call-backend
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/customer
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.0
+      - key: SARVAM_API_KEY
+        sync: false # set in the Render dashboard, never committed
